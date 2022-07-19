@@ -1,0 +1,244 @@
+Jul 19 01:48:33 10.71.61.0 u108963257 Connection from 10.71.61.0 port 12156 on 74.208.59.222 port 22
+Jul 19 01:48:38 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 12156 ssh2
+Jul 19 01:48:38 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 12156 id 0
+Jul 19 01:48:38 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 01:48:45 10.71.61.0 u108963257 remove name "/index.html"
+Jul 19 01:48:45 10.71.61.0 u108963257 [10.71.61.0|rm|0|0|0|0|0|2f696e6465782e68746d6c|]
+Jul 19 01:58:15 10.71.61.0 u108963257 Connection from 10.71.61.0 port 46522 on 74.208.59.222 port 22
+Jul 19 01:58:17 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 46522 ssh2
+Jul 19 01:58:18 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 46522 id 0
+Jul 19 01:58:18 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 01:59:33 10.71.61.0 u108963257 Connection from 10.71.61.0 port 32226 on 74.208.59.222 port 22
+Jul 19 01:59:33 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 32226 ssh2
+Jul 19 01:59:33 10.71.60.0 u108963257 Connection from 10.71.60.0 port 50656 on 74.208.59.222 port 22
+Jul 19 01:59:33 10.71.60.0 u108963257 Accepted password for u108963257 from 10.71.60.0 port 50656 ssh2
+Jul 19 01:59:34 10.71.60.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.60.0 port 50656 id 0
+Jul 19 01:59:34 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 32226 id 0
+Jul 19 01:59:34 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 01:59:34 10.71.60.0 u108963257 session opened for local user u108963257 from [10.71.60.0]
+Jul 19 01:59:36 10.71.60.0 u108963257 open "/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:36 10.71.60.0 u108963257 close "/style.css" bytes read 0 written 9938
+Jul 19 01:59:36 10.71.60.0 u108963257 [10.71.60.0|put|0|9938|0|0|0|2f7374796c652e637373|]
+Jul 19 01:59:36 10.71.61.0 u108963257 open "/robots.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:36 10.71.60.0 u108963257 open "/manifest.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:37 10.71.61.0 u108963257 close "/robots.txt" bytes read 0 written 67
+Jul 19 01:59:37 10.71.61.0 u108963257 [10.71.61.0|put|1|67|0|0|0|2f726f626f74732e747874|]
+Jul 19 01:59:37 10.71.60.0 u108963257 close "/manifest.json" bytes read 0 written 478
+Jul 19 01:59:37 10.71.60.0 u108963257 [10.71.60.0|put|1|478|0|0|0|2f6d616e69666573742e6a736f6e|]
+Jul 19 01:59:37 10.71.61.0 u108963257 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:37 10.71.60.0 u108963257 open "/footer1.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:38 10.71.61.0 u108963257 close "/index.html" bytes read 0 written 3911
+Jul 19 01:59:38 10.71.61.0 u108963257 [10.71.61.0|put|1|3911|0|0|0|2f696e6465782e68746d6c|]
+Jul 19 01:59:38 10.71.61.0 u108963257 open "/DiaryOfAWimpyKidFont-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:39 10.71.61.0 u108963257 close "/DiaryOfAWimpyKidFont-Regular.ttf" bytes read 0 written 12772
+Jul 19 01:59:39 10.71.61.0 u108963257 [10.71.61.0|put|1|12772|0|0|0|2f44696172794f664157696d70794b6964466f6e742d526567756c61722e747466|]
+Jul 19 01:59:39 10.71.61.0 u108963257 open "/asset-manifest.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:39 10.71.61.0 u108963257 close "/asset-manifest.json" bytes read 0 written 1542
+Jul 19 01:59:39 10.71.61.0 u108963257 [10.71.61.0|put|0|1542|0|0|0|2f61737365742d6d616e69666573742e6a736f6e|]
+Jul 19 01:59:40 10.71.61.0 u108963257 sent status No such file
+Jul 19 01:59:40 10.71.61.0 u108963257 sent status No such file
+Jul 19 01:59:40 10.71.60.0 u108963257 close "/footer1.png" bytes read 0 written 242902
+Jul 19 01:59:40 10.71.60.0 u108963257 [10.71.60.0|put|3|242902|0|0|0|2f666f6f746572312e706e67|]
+Jul 19 01:59:41 10.71.61.0 u108963257 sent status No such file
+Jul 19 01:59:42 10.71.61.0 u108963257 mkdir name "/static" mode 0777
+Jul 19 01:59:42 10.71.61.0 u108963257 [10.71.61.0|mkdir|0|0|511|0|0|2f737461746963|]
+Jul 19 01:59:43 10.71.61.0 u108963257 mkdir name "/static/css" mode 0777
+Jul 19 01:59:43 10.71.61.0 u108963257 [10.71.61.0|mkdir|0|0|511|0|0|2f7374617469632f637373|]
+Jul 19 01:59:45 10.71.60.0 u108963257 open "/static/css/main.f24cf005.chunk.css.map" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:45 10.71.61.0 u108963257 open "/static/css/main.f24cf005.chunk.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:46 10.71.61.0 u108963257 close "/static/css/main.f24cf005.chunk.css" bytes read 0 written 7500
+Jul 19 01:59:46 10.71.61.0 u108963257 [10.71.61.0|put|1|7500|0|0|0|2f7374617469632f6373732f6d61696e2e66323463663030352e6368756e6b2e637373|]
+Jul 19 01:59:46 10.71.60.0 u108963257 close "/static/css/main.f24cf005.chunk.css.map" bytes read 0 written 18326
+Jul 19 01:59:46 10.71.60.0 u108963257 [10.71.60.0|put|1|18326|0|0|0|2f7374617469632f6373732f6d61696e2e66323463663030352e6368756e6b2e6373732e6d6170|]
+Jul 19 01:59:46 10.71.61.0 u108963257 sent status No such file
+Jul 19 01:59:47 10.71.61.0 u108963257 mkdir name "/static/js" mode 0777
+Jul 19 01:59:47 10.71.61.0 u108963257 [10.71.61.0|mkdir|0|0|511|0|0|2f7374617469632f6a73|]
+Jul 19 01:59:49 10.71.61.0 u108963257 open "/static/js/2.6fc72c0b.chunk.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:49 10.71.60.0 u108963257 open "/static/js/2.6fc72c0b.chunk.js.LICENSE.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 01:59:50 10.71.60.0 u108963257 close "/static/js/2.6fc72c0b.chunk.js.LICENSE.txt" bytes read 0 written 2762
+Jul 19 01:59:50 10.71.60.0 u108963257 [10.71.60.0|put|1|2762|0|0|0|2f7374617469632f6a732f322e36666337326330622e6368756e6b2e6a732e4c4943454e53452e747874|]
+Jul 19 01:59:50 10.71.60.0 u108963257 open "/static/js/2.6fc72c0b.chunk.js.map" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:15 10.71.61.0 u108963257 close "/static/js/2.6fc72c0b.chunk.js" bytes read 0 written 2238120
+Jul 19 02:00:15 10.71.61.0 u108963257 [10.71.61.0|put|26|2238120|0|0|0|2f7374617469632f6a732f322e36666337326330622e6368756e6b2e6a73|]
+Jul 19 02:00:15 10.71.61.0 u108963257 open "/static/js/3.7fbbb5fe.chunk.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:16 10.71.61.0 u108963257 close "/static/js/3.7fbbb5fe.chunk.js" bytes read 0 written 4407
+Jul 19 02:00:16 10.71.61.0 u108963257 [10.71.61.0|put|1|4407|0|0|0|2f7374617469632f6a732f332e37666262623566652e6368756e6b2e6a73|]
+Jul 19 02:00:16 10.71.61.0 u108963257 open "/static/js/3.7fbbb5fe.chunk.js.map" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:18 10.71.61.0 u108963257 close "/static/js/3.7fbbb5fe.chunk.js.map" bytes read 0 written 9649
+Jul 19 02:00:18 10.71.61.0 u108963257 [10.71.61.0|put|2|9649|0|0|0|2f7374617469632f6a732f332e37666262623566652e6368756e6b2e6a732e6d6170|]
+Jul 19 02:00:18 10.71.61.0 u108963257 open "/static/js/main.d2969b53.chunk.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:19 10.71.61.0 u108963257 close "/static/js/main.d2969b53.chunk.js" bytes read 0 written 32328
+Jul 19 02:00:19 10.71.61.0 u108963257 [10.71.61.0|put|1|32328|0|0|0|2f7374617469632f6a732f6d61696e2e64323936396235332e6368756e6b2e6a73|]
+Jul 19 02:00:19 10.71.61.0 u108963257 open "/static/js/main.d2969b53.chunk.js.map" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:20 10.71.61.0 u108963257 close "/static/js/main.d2969b53.chunk.js.map" bytes read 0 written 59807
+Jul 19 02:00:20 10.71.61.0 u108963257 [10.71.61.0|put|1|59807|0|0|0|2f7374617469632f6a732f6d61696e2e64323936396235332e6368756e6b2e6a732e6d6170|]
+Jul 19 02:00:21 10.71.61.0 u108963257 open "/static/js/runtime-main.6cf0cb7e.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:21 10.71.61.0 u108963257 close "/static/js/runtime-main.6cf0cb7e.js" bytes read 0 written 2382
+Jul 19 02:00:21 10.71.61.0 u108963257 [10.71.61.0|put|0|2382|0|0|0|2f7374617469632f6a732f72756e74696d652d6d61696e2e36636630636237652e6a73|]
+Jul 19 02:00:22 10.71.61.0 u108963257 open "/static/js/runtime-main.6cf0cb7e.js.map" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:22 10.71.61.0 u108963257 close "/static/js/runtime-main.6cf0cb7e.js.map" bytes read 0 written 12494
+Jul 19 02:00:22 10.71.61.0 u108963257 [10.71.61.0|put|0|12494|0|0|0|2f7374617469632f6a732f72756e74696d652d6d61696e2e36636630636237652e6a732e6d6170|]
+Jul 19 02:00:23 10.71.61.0 u108963257 sent status No such file
+Jul 19 02:00:24 10.71.61.0 u108963257 mkdir name "/static/media" mode 0777
+Jul 19 02:00:24 10.71.61.0 u108963257 [10.71.61.0|mkdir|0|0|511|0|0|2f7374617469632f6d65646961|]
+Jul 19 02:00:26 10.71.61.0 u108963257 open "/static/media/banner-img.0382e64c.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:26 10.71.61.0 u108963257 close "/static/media/banner-img.0382e64c.png" bytes read 0 written 63201
+Jul 19 02:00:26 10.71.61.0 u108963257 [10.71.61.0|put|0|63201|0|0|0|2f7374617469632f6d656469612f62616e6e65722d696d672e30333832653634632e706e67|]
+Jul 19 02:00:27 10.71.61.0 u108963257 open "/static/media/banner-img1.b800698b.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:27 10.71.61.0 u108963257 close "/static/media/banner-img1.b800698b.png" bytes read 0 written 52180
+Jul 19 02:00:27 10.71.61.0 u108963257 [10.71.61.0|put|0|52180|0|0|0|2f7374617469632f6d656469612f62616e6e65722d696d67312e62383030363938622e706e67|]
+Jul 19 02:00:28 10.71.61.0 u108963257 open "/static/media/DiaryOfAWimpyKidFont-Regular.bb216ffb.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:28 10.71.61.0 u108963257 close "/static/media/DiaryOfAWimpyKidFont-Regular.bb216ffb.ttf" bytes read 0 written 12772
+Jul 19 02:00:28 10.71.61.0 u108963257 [10.71.61.0|put|0|12772|0|0|0|2f7374617469632f6d656469612f44696172794f664157696d70794b6964466f6e742d526567756c61722e62623231366666622e747466|]
+Jul 19 02:00:29 10.71.61.0 u108963257 open "/static/media/font.617a0a92.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:30 10.71.61.0 u108963257 close "/static/media/font.617a0a92.woff" bytes read 0 written 265456
+Jul 19 02:00:30 10.71.61.0 u108963257 [10.71.61.0|put|1|265456|0|0|0|2f7374617469632f6d656469612f666f6e742e36313761306139322e776f6666|]
+Jul 19 02:00:31 10.71.61.0 u108963257 open "/static/media/footer1.336bfb46.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:33 10.71.61.0 u108963257 close "/static/media/footer1.336bfb46.png" bytes read 0 written 242902
+Jul 19 02:00:33 10.71.61.0 u108963257 [10.71.61.0|put|2|242902|0|0|0|2f7374617469632f6d656469612f666f6f746572312e33333662666234362e706e67|]
+Jul 19 02:00:33 10.71.61.0 u108963257 open "/static/media/Wimpy-done.3de6c559.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:45 10.71.60.0 u108963257 close "/static/js/2.6fc72c0b.chunk.js.map" bytes read 0 written 4856824
+Jul 19 02:00:45 10.71.60.0 u108963257 [10.71.60.0|put|55|4856824|0|0|0|2f7374617469632f6a732f322e36666337326330622e6368756e6b2e6a732e6d6170|]
+Jul 19 02:00:45 10.71.60.0 u108963257 sent status No such file
+Jul 19 02:00:46 10.71.60.0 u108963257 mkdir name "/js" mode 0777
+Jul 19 02:00:46 10.71.60.0 u108963257 [10.71.60.0|mkdir|0|0|511|0|0|2f6a73|]
+Jul 19 02:00:47 10.71.61.0 u108963257 close "/static/media/Wimpy-done.3de6c559.png" bytes read 0 written 731097
+Jul 19 02:00:47 10.71.61.0 u108963257 [10.71.61.0|put|14|731097|0|0|0|2f7374617469632f6d656469612f57696d70792d646f6e652e33646536633535392e706e67|]
+Jul 19 02:00:48 10.71.61.0 u108963257 open "/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:48 10.71.60.0 u108963257 open "/js/DiaryOfAWimpyKidFont-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:49 10.71.61.0 u108963257 close "/js/index.js" bytes read 0 written 340
+Jul 19 02:00:49 10.71.61.0 u108963257 [10.71.61.0|put|1|340|0|0|0|2f6a732f696e6465782e6a73|]
+Jul 19 02:00:49 10.71.60.0 u108963257 close "/js/DiaryOfAWimpyKidFont-Regular.ttf" bytes read 0 written 12772
+Jul 19 02:00:49 10.71.60.0 u108963257 [10.71.60.0|put|1|12772|0|0|0|2f6a732f44696172794f664157696d70794b6964466f6e742d526567756c61722e747466|]
+Jul 19 02:00:49 10.71.60.0 u108963257 sent status No such file
+Jul 19 02:00:50 10.71.61.0 u108963257 mkdir name "/images" mode 0777
+Jul 19 02:00:50 10.71.61.0 u108963257 [10.71.61.0|mkdir|0|0|511|0|0|2f696d61676573|]
+Jul 19 02:00:51 10.71.60.0 u108963257 mkdir name "/config" mode 0777
+Jul 19 02:00:51 10.71.60.0 u108963257 [10.71.60.0|mkdir|0|0|511|0|0|2f636f6e666967|]
+Jul 19 02:00:53 10.71.61.0 u108963257 open "/config/config.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:53 10.71.60.0 u108963257 open "/config/abi.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:53 10.71.61.0 u108963257 close "/config/config.json" bytes read 0 written 514
+Jul 19 02:00:53 10.71.61.0 u108963257 [10.71.61.0|put|0|514|0|0|0|2f636f6e6669672f636f6e6669672e6a736f6e|]
+Jul 19 02:00:53 10.71.60.0 u108963257 close "/config/abi.json" bytes read 0 written 10873
+Jul 19 02:00:53 10.71.60.0 u108963257 [10.71.60.0|put|0|10873|0|0|0|2f636f6e6669672f6162692e6a736f6e|]
+Jul 19 02:00:54 10.71.61.0 u108963257 open "/config/roadmap.pdf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:54 10.71.60.0 u108963257 open "/config/theme.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:54 10.71.60.0 u108963257 close "/config/theme.css" bytes read 0 written 164
+Jul 19 02:00:54 10.71.60.0 u108963257 [10.71.60.0|put|0|164|0|0|0|2f636f6e6669672f7468656d652e637373|]
+Jul 19 02:00:55 10.71.60.0 u108963257 sent status No such file
+Jul 19 02:00:56 10.71.60.0 u108963257 mkdir name "/config/images" mode 0777
+Jul 19 02:00:56 10.71.60.0 u108963257 [10.71.60.0|mkdir|0|0|511|0|0|2f636f6e6669672f696d61676573|]
+Jul 19 02:00:58 10.71.60.0 u108963257 open "/config/images/banner-img.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:00:58 10.71.60.0 u108963257 close "/config/images/banner-img.png" bytes read 0 written 63201
+Jul 19 02:00:58 10.71.60.0 u108963257 [10.71.60.0|put|0|63201|0|0|0|2f636f6e6669672f696d616765732f62616e6e65722d696d672e706e67|]
+Jul 19 02:00:59 10.71.60.0 u108963257 open "/config/images/banner-img1.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:00 10.71.60.0 u108963257 close "/config/images/banner-img1.png" bytes read 0 written 52180
+Jul 19 02:01:00 10.71.60.0 u108963257 [10.71.60.0|put|1|52180|0|0|0|2f636f6e6669672f696d616765732f62616e6e65722d696d67312e706e67|]
+Jul 19 02:01:00 10.71.60.0 u108963257 open "/config/images/blue-Line.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:01 10.71.60.0 u108963257 close "/config/images/blue-Line.png" bytes read 0 written 6989
+Jul 19 02:01:01 10.71.60.0 u108963257 [10.71.60.0|put|0|6989|0|0|0|2f636f6e6669672f696d616765732f626c75652d4c696e652e706e67|]
+Jul 19 02:01:01 10.71.60.0 u108963257 open "/config/images/Ellipse 2 (1).png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:01 10.71.60.0 u108963257 close "/config/images/Ellipse 2 (1).png" bytes read 0 written 765
+Jul 19 02:01:01 10.71.60.0 u108963257 [10.71.60.0|put|0|765|0|0|0|2f636f6e6669672f696d616765732f456c6c697073652032202831292e706e67|]
+Jul 19 02:01:01 10.71.61.0 u108963257 close "/config/roadmap.pdf" bytes read 0 written 623214
+Jul 19 02:01:01 10.71.61.0 u108963257 [10.71.61.0|put|7|623214|0|0|0|2f636f6e6669672f726f61646d61702e706466|]
+Jul 19 02:01:02 10.71.60.0 u108963257 open "/config/images/footer1.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:03 10.71.61.0 u108963257 open "/config/images/Group 4 (1).png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:03 10.71.60.0 u108963257 close "/config/images/footer1.png" bytes read 0 written 242902
+Jul 19 02:01:03 10.71.60.0 u108963257 [10.71.60.0|put|1|242902|0|0|0|2f636f6e6669672f696d616765732f666f6f746572312e706e67|]
+Jul 19 02:01:03 10.71.61.0 u108963257 close "/config/images/Group 4 (1).png" bytes read 0 written 614
+Jul 19 02:01:03 10.71.61.0 u108963257 [10.71.61.0|put|0|614|0|0|0|2f636f6e6669672f696d616765732f47726f75702034202831292e706e67|]
+Jul 19 02:01:03 10.71.60.0 u108963257 open "/config/images/Rectangle 4.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:04 10.71.61.0 u108963257 open "/config/images/Wimpy-done.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jul 19 02:01:04 10.71.60.0 u108963257 close "/config/images/Rectangle 4.png" bytes read 0 written 543
+Jul 19 02:01:04 10.71.60.0 u108963257 [10.71.60.0|put|1|543|0|0|0|2f636f6e6669672f696d616765732f52656374616e676c6520342e706e67|]
+Jul 19 02:01:12 10.71.61.0 u108963257 close "/config/images/Wimpy-done.png" bytes read 0 written 731097
+Jul 19 02:01:12 10.71.61.0 u108963257 [10.71.61.0|put|8|731097|0|0|0|2f636f6e6669672f696d616765732f57696d70792d646f6e652e706e67|]
+Jul 19 02:02:04 10.71.60.0 u108963257 session closed for local user u108963257 from [10.71.60.0]
+Jul 19 02:02:04 10.71.60.0 u108963257 Connection closed by 10.71.60.0 port 50656
+Jul 19 02:02:12 10.71.61.0 u108963257 session closed for local user u108963257 from [10.71.61.0]
+Jul 19 02:02:12 10.71.61.0 u108963257 Connection closed by 10.71.61.0 port 32226
+Jul 19 02:04:37 10.71.61.0 u108963257 session closed for local user u108963257 from [10.71.61.0]
+Jul 19 02:04:37 10.71.61.0 u108963257 Connection closed by 10.71.61.0 port 46522
+Jul 19 02:04:57 10.71.61.0 u108963257 Connection closed by 10.71.61.0 port 12156
+Jul 19 02:04:57 10.71.61.0 u108963257 session closed for local user u108963257 from [10.71.61.0]
+Jul 19 02:15:51 10.71.61.0 u108963257 Connection from 10.71.61.0 port 39092 on 74.208.59.222 port 22
+Jul 19 02:15:51 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 39092 ssh2
+Jul 19 02:15:52 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 39092 id 0
+Jul 19 02:15:52 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 02:16:29 10.71.61.0 u108963257 Connection from 10.71.61.0 port 39098 on 74.208.59.222 port 22
+Jul 19 02:16:30 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 39098 ssh2
+Jul 19 02:16:29 10.71.61.0 u108963257 Connection from 10.71.61.0 port 13274 on 74.208.59.222 port 22
+Jul 19 02:16:30 10.71.61.0 u108963257 Accepted password for u108963257 from 10.71.61.0 port 13274 ssh2
+Jul 19 02:16:31 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 39098 id 0
+Jul 19 02:16:31 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 02:16:31 10.71.61.0 u108963257 Starting session: subsystem 'sftp' for u108963257 from 10.71.61.0 port 13274 id 0
+Jul 19 02:16:31 10.71.61.0 u108963257 session opened for local user u108963257 from [10.71.61.0]
+Jul 19 02:16:32 10.71.61.0 u108963257 open "/asset-manifest.json" flags READ mode 0666
+Jul 19 02:16:33 10.71.61.0 u108963257 open "/DiaryOfAWimpyKidFont-Regular.ttf" flags READ mode 0666
+Jul 19 02:16:33 10.71.61.0 u108963257 close "/asset-manifest.json" bytes read 1542 written 0
+Jul 19 02:16:33 10.71.61.0 u108963257 [10.71.61.0|get|1|1542|0|0|0|2f61737365742d6d616e69666573742e6a736f6e|]
+Jul 19 02:16:33 10.71.61.0 u108963257 close "/DiaryOfAWimpyKidFont-Regular.ttf" bytes read 12772 written 0
+Jul 19 02:16:33 10.71.61.0 u108963257 [10.71.61.0|get|0|12772|0|0|0|2f44696172794f664157696d70794b6964466f6e742d526567756c61722e747466|]
+Jul 19 02:16:34 10.71.61.0 u108963257 open "/footer1.png" flags READ mode 0666
+Jul 19 02:16:34 10.71.61.0 u108963257 open "/index.html" flags READ mode 0666
+Jul 19 02:16:35 10.71.61.0 u108963257 close "/index.html" bytes read 3911 written 0
+Jul 19 02:16:35 10.71.61.0 u108963257 [10.71.61.0|get|1|3911|0|0|0|2f696e6465782e68746d6c|]
+Jul 19 02:16:35 10.71.61.0 u108963257 close "/footer1.png" bytes read 242902 written 0
+Jul 19 02:16:35 10.71.61.0 u108963257 [10.71.61.0|get|1|242902|0|0|0|2f666f6f746572312e706e67|]
+Jul 19 02:16:35 10.71.61.0 u108963257 open "/manifest.json" flags READ mode 0666
+Jul 19 02:16:36 10.71.61.0 u108963257 open "/robots.txt" flags READ mode 0666
+Jul 19 02:16:36 10.71.61.0 u108963257 close "/manifest.json" bytes read 478 written 0
+Jul 19 02:16:36 10.71.61.0 u108963257 [10.71.61.0|get|1|478|0|0|0|2f6d616e69666573742e6a736f6e|]
+Jul 19 02:16:37 10.71.61.0 u108963257 close "/robots.txt" bytes read 67 written 0
+Jul 19 02:16:37 10.71.61.0 u108963257 [10.71.61.0|get|1|67|0|0|0|2f726f626f74732e747874|]
+Jul 19 02:16:37 10.71.61.0 u108963257 open "/style.css" flags READ mode 0666
+Jul 19 02:16:37 10.71.61.0 u108963257 close "/style.css" bytes read 9938 written 0
+Jul 19 02:16:37 10.71.61.0 u108963257 [10.71.61.0|get|0|9938|0|0|0|2f7374796c652e637373|]
+Jul 19 02:16:38 10.71.61.0 u108963257 open "/config/theme.css" flags READ mode 0666
+Jul 19 02:16:39 10.71.61.0 u108963257 close "/config/theme.css" bytes read 164 written 0
+Jul 19 02:16:39 10.71.61.0 u108963257 [10.71.61.0|get|1|164|0|0|0|2f636f6e6669672f7468656d652e637373|]
+Jul 19 02:16:39 10.71.61.0 u108963257 open "/config/roadmap.pdf" flags READ mode 0666
+Jul 19 02:16:39 10.71.61.0 u108963257 open "/config/abi.json" flags READ mode 0666
+Jul 19 02:16:40 10.71.61.0 u108963257 close "/config/abi.json" bytes read 10873 written 0
+Jul 19 02:16:40 10.71.61.0 u108963257 [10.71.61.0|get|1|10873|0|0|0|2f636f6e6669672f6162692e6a736f6e|]
+Jul 19 02:16:41 10.71.61.0 u108963257 close "/config/roadmap.pdf" bytes read 623214 written 0
+Jul 19 02:16:41 10.71.61.0 u108963257 [10.71.61.0|get|2|623214|0|0|0|2f636f6e6669672f726f61646d61702e706466|]
+Jul 19 02:16:41 10.71.61.0 u108963257 open "/config/config.json" flags READ mode 0666
+Jul 19 02:16:41 10.71.61.0 u108963257 close "/config/config.json" bytes read 514 written 0
+Jul 19 02:16:41 10.71.61.0 u108963257 [10.71.61.0|get|0|514|0|0|0|2f636f6e6669672f636f6e6669672e6a736f6e|]
+Jul 19 02:16:42 10.71.61.0 u108963257 open "/config/images/Wimpy-done.png" flags READ mode 0666
+Jul 19 02:16:43 10.71.61.0 u108963257 sent status No such file
+Jul 19 02:16:43 10.71.61.0 u108963257 open "/config/images/Rectangle 4.png" flags READ mode 0666
+Jul 19 02:16:43 10.71.61.0 u108963257 close "/config/images/Wimpy-done.png" bytes read 731097 written 0
+Jul 19 02:16:43 10.71.61.0 u108963257 [10.71.61.0|get|1|731097|0|0|0|2f636f6e6669672f696d616765732f57696d70792d646f6e652e706e67|]
+Jul 19 02:16:43 10.71.61.0 u108963257 close "/config/images/Rectangle 4.png" bytes read 543 written 0
+Jul 19 02:16:43 10.71.61.0 u108963257 [10.71.61.0|get|0|543|0|0|0|2f636f6e6669672f696d616765732f52656374616e676c6520342e706e67|]
+Jul 19 02:16:44 10.71.61.0 u108963257 open "/config/images/Group 4 (1).png" flags READ mode 0666
+Jul 19 02:16:44 10.71.61.0 u108963257 open "/config/images/footer1.png" flags READ mode 0666
+Jul 19 02:16:44 10.71.61.0 u108963257 close "/config/images/Group 4 (1).png" bytes read 614 written 0
+Jul 19 02:16:44 10.71.61.0 u108963257 [10.71.61.0|get|0|614|0|0|0|2f636f6e6669672f696d616765732f47726f75702034202831292e706e67|]
+Jul 19 02:16:45 10.71.61.0 u108963257 close "/config/images/footer1.png" bytes read 242902 written 0
+Jul 19 02:16:45 10.71.61.0 u108963257 [10.71.61.0|get|1|242902|0|0|0|2f636f6e6669672f696d616765732f666f6f746572312e706e67|]
+Jul 19 02:16:45 10.71.61.0 u108963257 open "/config/images/Ellipse 2 (1).png" flags READ mode 0666
+Jul 19 02:16:46 10.71.61.0 u108963257 open "/config/images/blue-Line.png" flags READ mode 0666
+Jul 19 02:16:46 10.71.61.0 u108963257 close "/config/images/Ellipse 2 (1).png" bytes read 765 written 0
+Jul 19 02:16:46 10.71.61.0 u108963257 [10.71.61.0|get|1|765|0|0|0|2f636f6e6669672f696d616765732f456c6c697073652032202831292e706e67|]
+Jul 19 02:16:46 10.71.61.0 u108963257 close "/config/images/blue-Line.png" bytes read 6989 written 0
+Jul 19 02:16:46 10.71.61.0 u108963257 [10.71.61.0|get|0|6989|0|0|0|2f636f6e6669672f696d616765732f626c75652d4c696e652e706e67|]
+Jul 19 02:16:46 10.71.61.0 u108963257 open "/config/images/banner-img1.png" flags READ mode 0666
+Jul 19 02:16:47 10.71.61.0 u108963257 open "/config/images/banner-img.png" flags READ mode 0666
+Jul 19 02:16:47 10.71.61.0 u108963257 close "/config/images/banner-img1.png" bytes read 52180 written 0
+Jul 19 02:16:47 10.71.61.0 u108963257 [10.71.61.0|get|1|52180|0|0|0|2f636f6e6669672f696d616765732f62616e6e65722d696d67312e706e67|]
+Jul 19 02:16:48 10.71.61.0 u108963257 close "/config/images/banner-img.png" bytes read 63201 written 0
+Jul 19 02:16:48 10.71.61.0 u108963257 [10.71.61.0|get|1|63201|0|0|0|2f636f6e6669672f696d616765732f62616e6e65722d696d672e706e67|]
+Jul 19 02:16:48 10.71.61.0 u108963257 open "/js/DiaryOfAWimpyKidFont-Regular.ttf" flags READ mode 0666
+Jul 19 02:16:49 10.71.61.0 u108963257 open "/js/index.js" flags READ mode 0666
+Jul 19 02:16:49 10.71.61.0 u108963257 close "/js/DiaryOfAWimpyKidFont-Regular.ttf" bytes read 12772 written 0
+Jul 19 02:16:49 10.71.61.0 u108963257 [10.71.61.0|get|1|12772|0|0|0|2f6a732f44696172794f664157696d70794b6964466f6e742d526567756c61722e747466|]
+Jul 19 02:16:50 10.71.61.0 u108963257 close "/js/index.js" bytes read 340 written 0
+Jul 19 02:16:50 10.71.61.0 u108963257 [10.71.61.0|get|1|340|0|0|0|2f6a732f696e6465782e6a73|]
+Jul 19 02:16:51 10.71.61.0 u108963257 open "/logs/access.log.29.2" flags READ mode 0666
+Jul 19 02:16:51 10.71.61.0 u108963257 open "/logs/sftp.log" flags READ mode 0666
+Jul 19 02:16:51 10.71.61.0 u108963257 close "/logs/access.log.29.2" bytes read 15264 written 0
+Jul 19 02:16:51 10.71.61.0 u108963257 [10.71.61.0|get|0|15264|0|0|0|2f6c6f67732f6163636573732e6c6f672e32392e32|]
